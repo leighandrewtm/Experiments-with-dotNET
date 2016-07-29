@@ -25,7 +25,8 @@ namespace MvcMovie.Models
                          Title = "When Harry Met Sally",
                          ReleaseDate = DateTime.Parse("1989-1-11"),
                          Genre = "Romantic Comedy",
-                         Price = 7.99M
+                         Price = 7.99M,
+                         Rating = 10
                      },
 
                      new Movie
@@ -42,7 +43,7 @@ namespace MvcMovie.Models
                          ReleaseDate = DateTime.Parse("1986-2-23"),
                          Genre = "Comedy",
                          Price = 9.99M,
-                         Ranking = 9.99M
+                        
                      },
 
                    new Movie

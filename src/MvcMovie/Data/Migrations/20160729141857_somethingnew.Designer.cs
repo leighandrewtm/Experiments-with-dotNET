@@ -8,8 +8,8 @@ using MvcMovie.Data;
 namespace MvcMovie.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20160728162540_test")]
-    partial class test
+    [Migration("20160729141857_somethingnew")]
+    partial class somethingnew
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -181,7 +181,9 @@ namespace MvcMovie.Data.Migrations
 
                     b.Property<decimal>("Price");
 
-                    
+                    b.Property<decimal>("Ranking");
+
+                    b.Property<string>("Rating");
 
                     b.Property<DateTime>("ReleaseDate");
 

@@ -19,7 +19,8 @@ namespace MvcMovie.Data.Migrations
                     Price = table.Column<decimal>(nullable: false),
                     ReleaseDate = table.Column<DateTime>(nullable: false),
                     Title = table.Column<string>(nullable: true),
-                    Ranking = table.Column<string>(nullable: true)
+                    Ranking = table.Column<int>(nullable: true),
+                    Rating= table.Column<decimal>(nullable: true)
                 },
                 constraints: table =>
                 {
